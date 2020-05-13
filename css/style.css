@@ -35,13 +35,18 @@ a:hover {
 }
 
 .site-title {
-    color: greenyellow;
+    color: whitesmoke;
     text-align: center;
     font-style: italic;
 }
 
 .site-subtitle {
-    color: greenyellow;
+    color: whitesmoke;
     font-style: italic;
     text-align: center;
 }
+
+
+/*.footer {
+    color: red;
+}*/
