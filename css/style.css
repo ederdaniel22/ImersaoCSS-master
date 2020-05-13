@@ -1,0 +1,47 @@
+body {
+    background-image: url("/css/img/Wolff.jpg");
+    background-size: auto 100vh;
+    color: white;
+    height: 100vh;
+    font-family: Arial black;
+}
+
+.menu {
+    background: orange;
+    color: green;
+}
+
+.menu li {
+    /*para tirar as bolinhas ao lado dos itens*/
+    list-style: none;
+}
+
+.menu ul {
+    /*força alteração de linha para coluna*/
+    display: flex;
+    /*justify-content: space-between; coloca os links a esquerda centro e direita*/
+    justify-content: space-around;
+    /*separa e ajusta os espaços entre os links*/
+}
+
+a {
+    /*eliminar underline dos links*/
+    text-decoration: none;
+}
+
+a:hover {
+    /*Incluir underline nos links quando passar o mouse*/
+    text-decoration: underline;
+}
+
+.site-title {
+    color: greenyellow;
+    text-align: center;
+    font-style: italic;
+}
+
+.site-subtitle {
+    color: greenyellow;
+    font-style: italic;
+    text-align: center;
+}
