@@ -1,5 +1,5 @@
 body {
-    background-image: url("/css/img/Perfil.jpg");
+    background: url("../css/img/Perfil.jpg") center / cover no-repeat;
     background-size: auto 100vh;
     color: white;
     height: 100vh;
